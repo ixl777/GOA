@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+.styled-heading { 
+    color: blue; background-color: yellow; 
+    }  
+    .styled-button {
+        color: white; 
+        background-color: red; 
+        padding: 10px 20px; 
+        border: none; 
+        cursor: pointer;
+         font-size: 16px; 
+         } 
+
+.small-text { 
+    font-size: 12px; 
+} 
+.medium-text { 
+    font-size: 18px; 
+} 
+.large-text { 
+    font-size: 24px; 
+}  
+.bold-heading {
+    font-weight: bold; 
+}  
+.light-paragraph { 
+    font-weight: lighter; 
+}
+.solid-border-div { 
+    border: 5px solid black; padding: 10px; 
+}  
+.dotted-border-img { 
+    border: 3px dotted black; 
+}
+.title { 
+    font-size: 36px; font-weight: bold; text-align: center; background-color: lightblue; padding: 10px; 
+}  
+.subtitle { 
+    font-size: 24px; font-weight: normal; text-align: left; background-color: lightyellow; padding: 10px; 
+} 
+.content { 
+    font-size: 18px; font-weight: lighter; text-align: justify; background-color: lightgreen; padding: 10px; 
+} 
+.footer { 
+    font-size: 14px; font-weight: normal; text-align: right; background-color: lightcoral; padding: 10px; 
+}
+.paragraph1 { 
+    font-size: 20px; font-weight: bold; color: blue; background-color: lightgray; text-align: left; border: 2px solid green; 
+}  
+.paragraph2 { 
+    font-size: 18px; font-weight: normal; color: red; background-color: yellow; text-align: center; border: 3px dashed purple; 
+}  
+.paragraph3 { 
+    font-size: 16px; font-weight: lighter; color: green; background-color: lightblue; text-align: right; border: 4px dotted orange; 
+}  
+.paragraph4 { 
+    font-size: 22px; font-weight: 900; color: black; background-color: pink; text-align: justify; border: 5px double brown; 
+}  
+.paragraph5 { 
+    font-size: 24px; font-weight: 800; color: white; background-color: darkblue; text-align: left; border: 6px groove red; 
+}
+    </style>
+<body>
+    <!--CSS-ის დეკლარაცია აღწერს, თუ როგორ უნდა იყოს წარმოდგენილი HTML ელემენტები. ის შედგება კუთვნილებისგან და შესაბამისი მნიშვნელობისგან. დეკლარაცია მდებარეობს ფიგურულ ფრჩხილებში მაგალითად color:blue;
+    CSS-ის დეკლარაცია აღწერს, თუ როგორ უნდა იყოს წარმოდგენილი HTML ელემენტები. ის შედგება კუთვნილებისგან და შესაბამისი მნიშვნელობისგან. დეკლარაცია მდებარეობს ფიგურულ ფრჩხილებში მაგალითად fonr size, border,color
+    CSS-ის მნიშვნელობა განსაზღვრავს, თუ კუთვნილება რა სახით უნდა იყოს წარმოდგენილი. თითოეული კუთვნილება შეიძლება ჰქონდეს ერთი ან მეტი მნიშვნელობა. მაგალითი font-size 20 px-->
+    <h1 class="styled-heading">სათაური Css-ით</h1>
+    <button class="styled-button">ღილაკი Css-ით</button>
+    <p class="small-text">ეს არის პატარა ტექსტი.</p> 
+    <p class="medium-text">ეს არის საშუალო ტექსტი.</p> 
+    <p class="large-text">ეს არის დიდი ტექსტი.</p>
+    <h1 class="bold-heading">ეს არის სქელი სათაური</h1>
+    <p class="light-paragraph">ეს არის მსუბუქი პარაგრაფი.</p>
+
+    <div class="solid-border-div"> 
+        ეს არის div ელემენტი 5px სისქის მყარი საზღვრით. 
+    </div>
+    <img src="data:image/png;base64,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" alt="" class="dotted-border-img">
+    <div class="title"> 
+        სათაური 
+    </div> 
+    <div class="subtitle"> 
+        სუბსათაური 
+    </div> 
+    <div class="content">
+        ეს არის მთავარი შიგთავსი, რომელიც გამოირჩევა მსუბუქი ფონტით და სამართლიანი ტექსტის განლაგებით. 
+    </div> 
+    <div class="footer"> 
+        ქვედა ნაწილი 
+    </div>
+    <p class="paragraph1">ეს არის პირველი პარაგრაფი სხვადასხვა სტილით.</p> 
+    <p class="paragraph2">ეს არის მეორე პარაგრაფი სხვადასხვა სტილით.</p> 
+    <p class="paragraph3">ეს არის მესამე პარაგრაფი სხვადასხვა სტილით.</p> 
+    <p class="paragraph4">ეს არის მეოთხე პარაგრაფი სხვადასხვა სტილით.</p>
+    <p class="paragraph5">ეს არის მეხუთე პარაგრაფი სხვადასხვა სტილით.</p>
+</body>
+</html>
