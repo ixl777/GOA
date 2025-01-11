@@ -1,0 +1,29 @@
+
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+#description {
+    color: green;
+    font-size: 18px;
+}
+
+
+.btn {
+    background-color: lightgray;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.special {
+    background-color: orange;
+    color: white;
+}
+
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.parent {
+    color: blue; /* მშობელი div-ის ტექსტის ფერი */
+}
+
+.parent p {
+    margin: 10px 0;
+}
+
+.parent .override {
+    color: red; /* გადაფარვის ტექსტის ფერი */
+}
