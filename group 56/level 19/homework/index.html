@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <style>
+        /* Add your CSS styling here */
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .top-link {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Single Page Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="#category1">Category 1</a>
+                        <a href="#category2">Category 2</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <article>
+                <h3>Article 1</h3>
+                <p>This is an example article for Section 1.</p>
+                <ul>
+                    <li>Unordered list item 1</li>
+                    <li>Unordered list item 2</li>
+                    <li>Unordered list item 3</li>
+                </ul>
+                <ol>
+                    <li>Ordered list item 1</li>
+                    <li>Ordered list item 2</li>
+                    <li>Ordered list item 3</li>
+                </ol>
+                <hr>
+                <p>More content in Section 1.</p>
+                <br>
+                <p>Another line in Section 1.</p>
+            </article>
+        </section>
+        <section id="section2">
+            <h2>Section 2</h2>
+            <aside>
+                <h3>Aside Content</h3>
+                <p>This is some aside content in Section 2.</p>
+                <ul>
+                    <li>Unordered list item 1</li>
+                    <li>Unordered list item 2</li>
+                    <li>Unordered list item 3</li>
+                </ul>
+                <hr>
+            </aside>
+            <p>More content in Section 2.</p>
+            <br>
+            <p>Another line in Section 2.</p>
+        </section>
+        <section id="section3">
+            <h2>Section 3</h2>
+            <article>
+                <h3>Article 2</h3>
+                <p>This is an example article for Section 3.</p>
+                <ol>
+                    <li>Ordered list item 1</li>
+                    <li>Ordered list item 2</li>
+                    <li>Ordered list item 3</li>
+                </ol>
+                <hr>
+                <p>More content in Section 3.</p>
+                <br>
+                <p>Another line in Section 3.</p>
+                <hr>
+            </article>
+            <article>
+                <h3>Article 3</h3>
+                <p>This is another example article for Section 3.</p>
+                <ul>
+                    <li>Unordered list item 1</li>
+                    <li>Unordered list item 2</li>
+                    <li>Unordered list item 3</li>
+                </ul>
+                <hr>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <a href="#top" class="top-link">Return to Top</a>
+    </footer>
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <img src="#" alt="#">
+    <video controls>
+        <source src="#" type="#">
+        Your browser does not support the video tag.
+    </video>
+    <iframe width="560" height="315" src="#" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <audio controls>
+        <source src="#" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <audio controls>
+        <source src="#" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <form action="/submit-feedback" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
