@@ -1,0 +1,15 @@
+.parent-div {
+    width: 70vw; 
+    height: 600px; 
+    background-color: #FF5733;
+    position: relative;
+}
+
+.child-div {
+    width: 25%; 
+    height: 10%; 
+    background-color: #33FF57; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}

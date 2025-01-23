@@ -1,0 +1,112 @@
+.para1 {
+    background-color: rgb(255, 0, 0); 
+    color: rgb(255, 255, 255); 
+}
+
+.para2 {
+    background-color: rgb(0, 255, 0); 
+    color: rgb(0, 0, 0); 
+}
+
+.para3 {
+    background-color: rgb(0, 0, 253); 
+    color: rgb(255, 255, 0); 
+}
+
+.para4 {
+    background-color: rgb(255, 165, 0); 
+    color: rgb(0, 0, 0); 
+}
+
+.para5 {
+    background-color: rgb(75, 0, 130); 
+    color: rgb(255, 255, 255);
+}
+
+ 
+.para6 {
+    background-color: #FF5733; 
+    color: #FFFFFF; 
+}
+
+.para7 {
+    background-color: #33FF57; 
+    color: #000000; 
+}
+
+.para8 {
+    background-color: #3357FF; 
+    color: #FFFF00; 
+}
+
+.para9 {
+    background-color: #FFC300; 
+    color: #000000; 
+}
+
+.para10 {
+    background-color: #900C3F; 
+    color: #FFFFFF; 
+}
+.parent-div {
+    width: 1000px; 
+    height: 1000px; 
+    background-color: #00FF00; 
+    position: relative;
+}
+.child-div {
+    width: 20%; 
+    height: 15%; 
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10 {
+    width: 120px; 
+    height: 120px; 
+    margin: 10px;
+    display: inline-block; 
+}
+
+.div1 {
+    background-color: #FF5733; 
+}
+
+.div2 {
+    background-color: #33FF57; 
+}
+
+.div3 {
+    background-color: #3357FF;
+}
+
+.div4 {
+    background-color: #FFFF33; 
+}
+
+.div5 {
+    background-color: #FF33FF; 
+}
+
+.div6 {
+    background-color: #FF9933; 
+}
+
+.div7 {
+    background-color: #33FFFF; 
+}
+
+.div8 {
+    background-color: #FF3380; 
+}
+
+.div9 {
+    background-color: #80FF33;
+}
+
+.div10 {
+    background-color: #3333FF; 
+}
+
+
