@@ -1,0 +1,54 @@
+.hover-button {
+    background-color: blue;
+    transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: green;
+}
+a {
+    color: black;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: red;
+}
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+p {
+    color: black;
+    transition: color 0.4s ease;
+}
+
+p:hover {
+    color: orange;
+}
+.border-box {
+    border: 2px solid black;
+    transition: border-width 0.4s ease;
+}
+
+.border-box:hover {
+    border-width: 6px;
+}
+.press-button {
+    transition: transform 0.1s ease;
+}
+
+.press-button:active {
+    transform: scale(0.95);
+}
+.shadow-card {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.4s ease;
+}
+
+.shadow-card:hover {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
+}

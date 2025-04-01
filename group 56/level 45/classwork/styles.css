@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "menu content"
+        "footer footer";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: cyan;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: red;
+    padding: 10px;
+}
+
+.content {
+    grid-area: content;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: cyan;
+    text-align: center;
+    padding: 10px;
+}

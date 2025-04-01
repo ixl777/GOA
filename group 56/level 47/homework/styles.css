@@ -1,0 +1,18 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.box {
+    position: relative;
+    top: -10px; 
+}.container {
+    display: flex;
+    justify-content: space-between; 
+}
+img {
+    float: left;
+    margin-right: 10px; 
+}.element {
+    margin-right: 20px; 
+}

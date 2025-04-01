@@ -1,0 +1,10 @@
+.custom-div {
+    width: 1000px;
+    height: 500px;
+    border: 5px solid black; 
+    border-radius: 25px; 
+    background-image: url('#'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: auto; 
+}

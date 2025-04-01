@@ -1,0 +1,12 @@
+.myDiv {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    transition: font-size 1s, color 2s, background-color 2s;
+  }
+  
+  .myDiv:active {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+  }
