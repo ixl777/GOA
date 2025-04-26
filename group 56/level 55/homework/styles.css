@@ -1,0 +1,180 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+    color: #333;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.move-box {
+    animation-name: moveLeftRight;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes moveLeftRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(300px);
+    }
+}
+
+.change-color {
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: red;
+    }
+}
+
+.rotate-box {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.pulse-box {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.bounce-box {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+}
+/* 6. Infinite loading spinner */
+.load-spin {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    border-top-color: transparent;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.run-once {
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.toggle-animation {
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.no-loop {
+    animation-iteration-count: 1;
+}
+/* 9. Delay start */
+.delay-start {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.seq-1 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+.seq-2 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+.seq-3 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.fade-10s {
+    animation-name: fadeOut;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

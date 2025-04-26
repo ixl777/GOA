@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 თანაბარი სვეტი */
+    grid-template-rows: repeat(2, 150px); /* 2 სტრიქონი თანაბარი სიმაღლით */
+    gap: 10px; /* ელემენტებს შორის სივრცე */
+    width: 80%;
+  }
+  
+  .green {
+    background-color: green;
+    grid-column: span 2; /* მოიცავს 2 სვეტს */
+  }
+  
+  .blue {
+    background-color: blue;
+    grid-column: span 1; /* მოიცავს 1 სვეტს */
+  }
+  
+  .brown {
+    background-color: brown;
+    grid-column: span 3; /* მოიცავს 3 სვეტს */
+  }
+  
+  .darkgreen {
+    background-color: darkgreen;
+  }
+  
+  .gray {
+    background-color: gray;
+  }
+  
+  .pink {
+    background-color: pink;
+    grid-column: span 3; /* მოიცავს 3 სვეტს */
+  }
+  
+  .small {
+    height: 80px;
+  }

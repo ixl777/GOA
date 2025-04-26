@@ -1,0 +1,50 @@
+.sidebar {
+    width: 240px; 
+}
+.main-content {
+    margin-left: 240px; 
+}
+.project-card {
+    background-color: white;
+    border-radius: 0.5rem; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+.announcement-box {
+    background-color: #f7fafc; 
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+}
+.trending-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.trending-item img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 9999px; 
+    margin-right: 1rem;
+}
+
+@keyframes myAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.announcement-box {
+  animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
