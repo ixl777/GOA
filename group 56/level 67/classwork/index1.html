@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Operations</title>
+</head>
+<body>
+
+    <script>
+        function userOperations() {
+            const result1 = confirm("დააჭირეთ OK ან Cancel პირველი ცვლადისთვის.");
+            const result2 = confirm("დააჭირეთ OK ან Cancel მეორე ცვლადისთვის.");
+
+            console.log("ორივე true-ია (AND):", result1 && result2);
+
+            console.log("ერთი მაინც true-ია (OR):", result1 || result2);
+        }
+        window.onload = userOperations;
+    </script>
+
+</body>
+</html>

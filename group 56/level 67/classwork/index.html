@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ობიექტის მაგალითი</title>
+</head>
+<body>
+    <h1>იხილეთ კონსოლი</h1>
+    <p>გახსენით დეველოპერის ხელსაწყოები (F12) და გადადით "Console" განყოფილებაში, რათა იხილოთ JavaScript-ის გამომავალი.</p>
+
+    <script>
+        const person = {
+            name: "Andria",
+            surname: "Gobejishvili",
+            academy: "GOA academy",
+            city: "oslo",
+            role: "student",
+            favColor: "green",
+            age: 14,
+            isStudent: true,
+            printFullName: function() {
+                console.log(`${this.name} ${this.surname}`);
+            },
+            printFavColor: function() {
+                console.log(`ჩემი საყვარელი ფერია: ${this.favColor}`);
+            }
+        };
+        console.log("--- მთლიანი ობიექტი ---");
+        console.log(person);
+
+        console.log("\n--- ობიექტის კუთვნილება (ქალაქი) ---");
+        console.log(person.city);
+        console.log("\n--- printFullName მეთოდის გამოძახება ---");
+        person.printFullName();
+
+        console.log("\n--- printFavColor მეთოდის გამოძახება ---");
+        person.printFavColor();
+
+        console.log("\n--- ობიექტის მნიშვნელობის შეცვლა და დაბეჭდვა ---");
+        person.role = "დეველოპერი";
+        console.log(`განახლებული როლი: ${person.role}`);
+    </script>
+</body>
+</html>
