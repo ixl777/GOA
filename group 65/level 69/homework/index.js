@@ -94,7 +94,7 @@ console.log("\n12) Template Literals (name, age):");
 console.log(`My name is ${name} and I am ${age} years old.`);
 
 
-const myName = "ანა";
+const myName = "ანდრია";
 const profession = "პროგრამისტი";
 const country = "საქართველო";
 console.log("\n13) Template Literals (Template Sentence):");
