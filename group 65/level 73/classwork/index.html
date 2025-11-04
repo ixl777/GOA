@@ -1,0 +1,26 @@
+<div></div>
+<style>
+  * {
+    background: #DE6B67;
+  }
+  body {
+    background: #3f4269;
+    margin: 50px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+  }
+  div::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 60px; 
+    background: #3f4269; 
+    top: 70px; 
+  }
+</style>

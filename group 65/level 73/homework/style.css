@@ -1,0 +1,29 @@
+
+         @keyframes slideInFromLeft {
+        from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: sans-serif;
+            padding: 50px;
+        }
+
+        .text-wrapper {
+            overflow: hidden;
+            width: fit-content; 
+        }
+
+        .slide-in-text {
+            font-size: 3rem;
+            animation-name: slideInFromLeft;
+            animation-duration: 1.5s; 
+            animation-timing-function: ease-out; 
+            animation-fill-mode: forwards;
+        }

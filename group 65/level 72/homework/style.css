@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+div, section, main, p {
+    border: 2px solid #007bff;
+    background: #f4f9ff;
+    padding: 10px;
+    margin: 15px;
+    min-height: 30px;
+}
+
+main {
+    border-color: #28a745;
+}
+
+section {
+    border-color: #dc3545;
+}
+
+img {
+    max-width: 100%;
+}
