@@ -1,0 +1,14 @@
+.main-container {
+    display: flex;       
+    height: 150px;      
+    text-align: center;  
+    line-height: 150px; 
+    color: black;        
+}
+.box {
+    flex: 1;             
+}
+.color-1   { background-color: rgba(0, 150, 100, 1.0); }
+.color-06  { background-color: rgba(0, 150, 100, 0.6); }
+.color-03  { background-color: rgba(0, 150, 100, 0.3); }
+.color-01  { background-color: rgba(0, 150, 100, 0.1); }
