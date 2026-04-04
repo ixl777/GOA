@@ -1,0 +1,18 @@
+.sticky-element {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0; 
+    background-color: #dcedc8; 
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #4caf50;
+}
+
+.content {
+    padding: 20px;
+    line-height: 1.6;
+}
+body {
+    height: 2000px; 
+    font-family: sans-serif;
+}
