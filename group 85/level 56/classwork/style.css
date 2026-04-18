@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e;
+    perspective: 1000px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 242, 254, 0.3);
+    animation: transformBox 6s infinite alternate ease-in-out;
+    transform-style: preserve-3d;
+}
+@keyframes transformBox {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(0) scale(1);
+    }
+    25% {
+        transform: translate3d(150px, -50px, 0) rotate(0) scale(1);
+    }
+    50% {
+        transform: translate3d(150px, -50px, 0) rotateY(180deg) rotateX(180deg) scale(1);
+    }
+    75% {
+        transform: translate3d(150px, -50px, 0) rotateY(180deg) rotateX(180deg) scale(1.8);
+    }
+    100% {
+        transform: translate3d(-100px, 100px, 300px) rotate3d(1, 1, 1, 360deg) scale(1.8);
+    }
+}

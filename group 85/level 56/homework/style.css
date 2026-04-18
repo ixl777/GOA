@@ -1,0 +1,15 @@
+.element {
+  transform: translate(100px, 50px);
+}
+.element {
+  transform: rotate3d(1, 0, 0, 180deg);
+}
+.element {
+  transform: scale(1.5);
+}
+.element {
+  transform: rotate3d(1, 1, 0, 45deg);
+}
+.element {
+  transform: translateY(50px) scale(2) rotateZ(90deg);
+}
