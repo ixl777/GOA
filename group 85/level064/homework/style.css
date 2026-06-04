@@ -1,0 +1,11 @@
+:is(h1, h2, h3) {
+  color: blue;
+}
+ul li:nth-child(4) {
+  color: red;
+}:is(header, main, footer) p {
+  color: green; 
+}
+:is(.article, .sidebar) :is(button, a) {
+  padding: 10px 20px;
+}
